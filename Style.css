@@ -1,0 +1,230 @@
+body{
+    background-color: #ebe1e1;
+}
+.item1 img{
+    border-radius: 50%;
+    width: 350px; 
+    height: 350px; 
+    object-fit: cover; 
+    display: block;
+    
+    unicode-bidi: isolate;
+}
+.page-title{
+    color: #02027b;
+    text-align: center;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    unicode-bidi: isolate;
+}
+.page-subtitle{
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: #161616;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    unicode-bidi: isolate;
+
+}
+.item2{
+    position: relative;
+}
+.bio-block{
+    text-align: center;
+    font-weight: 400;
+    color: #494949;
+    position: absolute;
+   
+}
+  /* For screens smaller than 768px */
+@media (max-width: 767px) {
+    .item1 img{
+        margin-block-end: 1em;
+        unicode-bidi: isolate;
+    }
+    .page-title{
+        font-size: 2.5em;
+        display: block;
+       
+    }
+    .page-subtitle{
+        font-size: 1.3em;
+        margin-bottom: 1rem;
+        display: block;
+       
+    
+    }
+    
+    .bio-block{
+        font-size: 1.2rem;
+        width: 90%;
+        position: absolute;
+        left: 25px;
+    }
+    .item2 p {
+        margin-bottom: 1rem;
+      }
+      .item2 hr {
+        margin-top: 1rem;
+      }
+  }
+  
+  /* For screens larger than 768px */
+  @media (min-width: 768px) {
+    .item1 img{
+        margin-block-start: 3.8em;
+        margin-block-end: 1em;
+        unicode-bidi: isolate;
+    }
+    .page-title{
+        font-size: 3.5em;
+        display: block;
+       
+    }
+    .page-subtitle{
+        font-size: 1.3em;
+        margin-bottom: 1rem;
+        display: block;
+       
+    
+    }
+    .bio-block{
+        font-size: 1.2rem;
+        width: 65%;
+        position: absolute;
+        right: 150px;
+       
+    }
+  }
+  hr{
+    border-top-style: dotted;
+    border-top-color: #b52580;
+    border-top-width: .4rem;
+  }
+ 
+  /*****************/
+  @media (max-width: 767px) {
+    .section2{
+        padding-top: 150px;
+    }
+
+  }
+  .iportfolio{
+    font-size: 2em;
+    color: #02027b;
+    text-align: center;
+    font-weight: 500;
+  }
+  .card{
+    background-color: #ebe1e1;
+    border: none;
+  }
+  
+  .card img{
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+   
+}
+
+@media (max-width: 767px) {
+    .card img{
+        border-radius: 50%;
+        width: 150px; 
+        height: 150px; 
+        object-fit: cover; 
+       
+    }
+    .section2 .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .section2 .col-12 {
+      max-width: 18rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+/***************************/
+.Summary{
+    font-size: 2em;
+    color: #02027b;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.item4{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.item4 .btn{
+    border: 1px solid #2c2c2c;
+
+}
+
+
+.item5{
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .section3 .item4 .btn[data-toggle="tooltip"] {
+      position: relative;
+    }
+  
+    .section3 .item4 .btn[data-toggle="tooltip"]::before,
+    .section3 .item4 .btn[data-toggle="tooltip"]::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .section3 .item4 .btn[data-toggle="tooltip"][data-placement="top"]::after {
+      top: calc(100% + 5px);
+    }
+  
+    .section3 .item4 .btn[data-toggle="tooltip"][data-placement="bottom"]::after {
+      bottom: calc(100% + 5px);
+    }
+  
+    .section3 .item4 .btn[data-toggle="tooltip"][data-placement="left"]::after,
+    .section3 .item4 .btn[data-toggle="tooltip"][data-placement="right"]::after {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+/********************************************/
+.Education{
+    font-size: 2.5em;
+    color: #02027b;
+    text-align: center;
+    font-weight: 500;
+}
+.item5 p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+/****************************************************/
+.Contact{
+    font-size: 2.5em;
+    color: #02027b;
+    text-align: center;
+    font-weight: 500;
+}
+.item6{
+    text-align: center;
+}
+.item6 p{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.task{
+    text-decoration: none;
+
+}
+/***********************************************************/
